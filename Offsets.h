@@ -55,6 +55,10 @@ namespace Offsets {
     inline constexpr u32 ViewMatrix           = 0xE8;
     inline constexpr u32 MainCameraTransform  = 0x254;
     inline constexpr u32 AimRotation          = 0x404;
+    inline constexpr u32 m_LocalObserver      = 0xB4;
+    inline constexpr u32 m_TargetPlayer       = 0x28;
+    inline constexpr u32 m_LocalSpectator     = 0xB8;
+    inline constexpr u32 TargeSpectPlayer     = 0x58;
 
     // Entities Dictionary
     inline constexpr u32 DictionaryEntities   = 0x68;
