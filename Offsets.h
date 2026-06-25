@@ -29,7 +29,7 @@ enum class Bones : u32
 // ── Offsets ──────────────────────────────────────────────────────────────────
 namespace Offsets {
     // Game/Match pointer chains
-    inline constexpr u32 GameFacadeBase       = 0xA986E9C;
+    inline constexpr u32 GameFacadeBase       = 0xA986B7C;
     inline constexpr u32 StaticGameFacade     = 0x5C;
     inline constexpr u32 CurrentMatch         = 0x50;
     inline constexpr u32 MatchStatus          = 0x8C;
