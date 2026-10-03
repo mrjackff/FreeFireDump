@@ -1,8 +1,6 @@
 #pragma once
 
 #include <workspace/types.hpp>
-
-// Strongly typed enumerations for better type safety and documentation
 namespace Bones {
     enum : u32 {
         WeaponMountNode   = 0x454,
