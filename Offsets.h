@@ -2,7 +2,6 @@
 
 #include <workspace/types.hpp>
 
-// ── Bones ────────────────────────────────────────────────────────────────────
 enum class Bones : u32
 {
     m_WeaponMountNode  = 0x454,
@@ -26,7 +25,6 @@ enum class Bones : u32
     m_LeftForeArmNode  = 0x4A0
 };
 
-// ── Offsets ──────────────────────────────────────────────────────────────────
 namespace Offsets {
     // Game/Match pointer chains
     inline constexpr u32 GameFacadeBase       = 0xA986E9C;
